@@ -6,7 +6,7 @@ import { getContact } from "../data/items";
 const Contact = () => {
   const params = useParams();
   const contact = useMemo(
-    () => getContact(params.contactid),
+    () => getContact(params.contactid), // func que filtra contactos por id
     [params.contactid]
   );
 

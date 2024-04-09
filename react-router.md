@@ -12,12 +12,11 @@
 
 ### createBrowserRouter()
 
-- Función donde se definen las rutas
+- Función donde se definen las rutas, cada ruta es un objeto.
 
 ### Propiedades
 
 - path => ruta => ejemplo /about
-
 - element => Componente de la ruta
 
 ```js
